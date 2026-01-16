@@ -166,7 +166,7 @@ Tu retrouves une vieille lettre de ta grand-mère dans ton grenier qui t'es dest
 [[ Je décide de la lire avec ma mère.  ->finitt]]
 
 
-<img src="image-lettttre.jpg">
+<img src="image-lettttre.jpg">(text-colour:red)+(bg:#ffd8a8)[Your Text Here]
 
 
 :: adresse {"position":"1225,1900","size":"100,100"}
@@ -186,8 +186,8 @@ FIN
 
 
 
-:: cherche {"position":"575,1925","size":"100,100"}
-Je tombe 
+:: cherche {"position":"550,1950","size":"100,100"}
+Je tombe sur une photo où ma mère embrasse un gars, elle m'en avait jamais parlé...
 
 
 :: coffee {"position":"900,1000","size":"100,100"}
@@ -209,6 +209,8 @@ Ils disent que le groupe devrait avoir plus de visibilité, et qu'Enzo et ma mè
 
 :: couple {"position":"725,2200","size":"100,100"}
 "Alors dans ce cas, c'est possible que tu sois ma fille..."
+
+(text-colour:red)[FIN]
 
 <img src="image-cri.jpg">
 
@@ -260,7 +262,7 @@ Elle est signée !! Par..Enzo Marteau ?
 :: histoire {"position":"1350,2275","size":"100,100"}
 Il me dit qu'ils ont juste fait de la musique ensembles et qu'ils étaient en couple durant 3 ans. Ma mère me dit qu'il faudrait faire un test ADN mais que c'est probablement mon père biologique...
 
-FIN
+(text-colour:red)[FIN]
 
 <img src="image-cri.jpg">
 
@@ -316,7 +318,7 @@ Rien d'intéressant...
 Elle n'est pas d'accord et furieuse.
 
 
-:: perso\  {"position":"450,1825","size":"100,100"}
+:: perso\  {"position":"475,1825","size":"100,100"}
 3 personnes, dont ma mère..
 
 [[ Je me sens trop mal et j'envoie un message à ma mère pour des explications.->finitt]]
@@ -341,7 +343,11 @@ Il y a bien la même chanson que celle à la bibliothèque !! Oh mon dieu..
 
 OMG c'est quand je suis née ça, c'est mon père ?!?!?
 
+
+(text-colour:red)[FIN]
+
 <img src="image-cri.jpg">
+
 
 
 :: vrai {"position":"1475,2150","size":"100,100"}
