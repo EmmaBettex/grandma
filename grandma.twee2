@@ -1,0 +1,367 @@
+:: StoryTitle
+grandma
+
+
+:: StoryData
+{
+  "ifid": "9CE93B62-0235-4ADF-9152-9F05D34D4080",
+  "format": "Harlowe",
+  "format-version": "3.3.9",
+  "start": "0",
+  "zoom": 1
+}
+
+
+:: \ a {"position":"600,500","size":"100,100"}
+Il y a très peu de monde, avec un petit fond de jazz qui me touche particulièrement.
+Je regarde les livres en sachant même pas ce que je cherche, mais au bout d'une heure, j'ai toujours rien trouvé.
+
+[[ Je continue à chercher  -> aa]]
+[[ Je discute avec le libraire  -> ab]]
+
+
+<img src="image-biblio.jpg">
+
+
+:: \ aa {"position":"475,575","size":"100,100"}
+Je trouve toujours rien mais le libraire me demande si j'ai besoin d'aide.
+
+[[ Je lui demande s'il connait ma grand-mère -> aba]]
+[[ Je lui demande le titre de la musique de fond -> musique]]
+
+
+<img src="image-biblio.jpg">
+
+
+:: \ ab {"position":"625,625","size":"100,100"}
+[[ Je lui demande s'il connait ma grand-mère -> aba]]
+[[ Je lui demande le titre de la musique -> musique]]
+
+
+<img src="image-biblio.jpg">
+
+
+:: \ aba {"position":"425,750","size":"100,100"}
+Patti Durand ? Non, désolée, ça me dit rien du tout.
+
+[[ Je lui demande le titre de la musique -> musique]]
+[[ Je pars -> finittt ]]
+
+
+<img src="image-biblio.jpg">
+
+
+:: \ album {"position":"625,1325","size":"100,100"}
+Des photos d'elle petite en tenant une trompette, ou d'elle et ma grand-mère a côté d'une batterie, mais rien d'autre de musical.
+
+[[ Je relis la lettre de ma mamie.->finit]]
+[[ Je vais regarder sur facebook-> facebookgood ]]
+
+
+<img src="pile-vieux-livres-pour-amoureux-livres_841543-7947.jpg.avif">
+
+
+:: \ albumsgood\  {"position":"775,1450","size":"100,100"}
+Je trouve une photo d'elle jeune avec une guitare.
+
+[[ J'observe plus en profondeur la photo.->guittare]]
+[[ Je regarde les autres photos.->pas]]
+
+
+:: \ barman\  {"position":"925,1200","size":"100,100"}
+"Quel concert ? Il était où ?
+- C'était au Docks, un truc de fou !
+- Oohhh trop bien ! Au revoir, merci."
+
+Une fois rentrée, je me décide à faire des recherches sur le passé de ma mère.
+
+[[ Je fouille les albums photos.-> album]]
+[[ Je recherche son ancien compte facebook.-> facebook ]]
+
+<img src="anthony-delanoix-hzgs56ze49s-unsplash.jpg">
+
+
+:: \ café\  {"position":"775,1000","size":"100,100"}
+Je demande alors au barman s'il connaît Stéphanie Durand, et me réponds que oui, il avait même fait l'éclairage de son concert.
+
+[[ Je finis mon café et rentre chez moi.-> maison ]]
+[[ Je lui pose des questions.-> barman ]]
+
+
+<img src="red-hen-cafe-ohio-773x1030.jpeg.webp">
+
+
+:: \ chelou {"position":"600,950","size":"100,100"}
+"Oui oui, je l'ai même vue en concert !"
+
+[[ "Ahhh d'accord." Je rentre faire des recherches.-> recherche ]]
+[[ "Ahhh d'accord." Je vais au café du coin.-> café ]]
+
+
+
+<img src="anthony-delanoix-hzgs56ze49s-unsplash.jpg">
+
+
+:: \ facebook\  {"position":"800,1325","size":"100,100"}
+Je trouve rien, à part des photos d'elle petite.
+
+[[ Je relis la lettre de ma mamie.->finit]]
+[[ Je vais regarder les albums photos.-> albumsgood ]]
+
+
+:: \ facebookgood\  {"position":"625,1450","size":"100,100"}
+Oooohhh une photo d'elle jeune, avec une guitare et en description "Indigo Lounge".
+
+[[ Je recherche ce nom sur google.->google ]]
+[[ J'envoie un message à ma mère. ->finitt]]
+
+
+:: \ finit\  {"position":"175,800","size":"100,100"}
+T'es pas le couteau le plus aiguisé du tiroir..
+
+
+:: \ finittt\  {"position":"425,875","size":"100,100"}
+[[ Je retourne à la bibliothèque et demande des infos sur la musique.-> musique]]
+[[ Je reste dehors dans le froid.-> finit ]]
+
+
+:: \ groupe {"position":"800,2075","size":"100,100"}
+"Oui en effet, elle et moi avons été ensemble un moment."
+Ensemble ?!?!? Ça veut dire quoi ?!
+
+[["C'est ma mère, quesqu'il s'est passé ?"->couple]]
+[["Combien de temps ? Quelle année ?"->temps]]
+
+
+:: \ maison\  {"position":"725,1200","size":"100,100"}
+Une fois rentrée, je me décide à faire des recherches sur le passé de ma mère.
+
+[[ Je fouille les albums photos.-> album]]
+[[ Je recherche son ancien compte facebook.-> facebook ]]
+
+
+:: \ musique {"position":"600,825","size":"100,100"}
+C'est "Swing pour un verre oublié" d'une femme de la région, Stéphanie Durand, je l'écoute tout le temps ! 
+Oh ! C'est le prénom de jeune fille de ma mère !!
+
+[[ "C'est ma mère, mais elle n'a jamais fait de musique, vous êtes sûr que c'est bien elle ?!" -> chelou]]
+[[ "Oooohh trop bien ! Je vais y aller, au revoir et merci." ->coffee]]
+
+<img src="video_preview_0000.jpg.avif">
+
+
+:: \ recherche\  {"position":"475,1125","size":"100,100"}
+Une fois rentrée, je commence les fouilles.
+
+[[ Je fouille les albums photos.-> album]]
+[[ Je recherche son ancien compte facebook.-> facebook ]]
+
+
+:: 0 {"position":"650,375","size":"100,100"}
+Tu retrouves une vieille lettre de ta grand-mère dans ton grenier qui t'es destinée.
+ 
+
+[[ Je vais à la bibliothèque.  -> a]]
+[[ Je repose la lettre et vais dormir.  -> finit ]]
+[[ Je décide de la lire avec ma mère.  ->finitt]]
+
+
+<img src="image-lettttre.jpg">(text-colour:red)+(bg:#ffd8a8)[Your Text Here]
+
+
+:: adresse {"position":"1225,1900","size":"100,100"}
+Je la trouve assez facilement.
+
+[[ Je me rends chez lui.->moi]]
+[[ Je vais chercher ma mère pour y aller avec elle.->mams]]
+
+
+
+:: aie {"position":"700,1950","size":"100,100"}
+"- Et tu peux me dire quel âge t'as?
+- 17 ans, pourquoi ?
+- C'est possible que je sois ton père..."
+
+FIN
+
+
+
+:: cherche {"position":"550,1950","size":"100,100"}
+Je tombe sur une photo où ma mère embrasse un gars, elle m'en avait jamais parlé...
+
+
+:: coffee {"position":"900,1000","size":"100,100"}
+Je passe devant le café du coin et vais boire un truc.
+Je demande alors au barman s'il connaît Stéphanie Durand, et me réponds que oui, il avait même fait l'éclairage de son concert.
+
+[[ Je finis mon café et rentre chez moi.-> maison ]]
+[[ Je lui pose des questions.-> barman ]]
+
+<img src="red-hen-cafe-ohio-773x1030.jpeg.webp">
+
+
+:: com {"position":"925,2075","size":"100,100"}
+Ils disent que le groupe devrait avoir plus de visibilité, et qu'Enzo et ma mère sont "trop chous ensembles". 
+
+[[ Je raconte l'histoire à ma mère et lui demande de m'accompagner chez lui.->pasok]]
+[[ Je décide d'aller chez lui.->adresse]]
+
+
+:: couple {"position":"725,2200","size":"100,100"}
+"Alors dans ce cas, c'est possible que tu sois ma fille..."
+
+(text-colour:red)[FIN]
+
+<img src="image-cri.jpg">
+
+
+:: enzo {"position":"825,1700","size":"100,100"}
+Je trouve son compte insta, c'est un bel homme d'environ une quarantaine d'années.
+Je lui envoie un message:
+
+[[ Je lui demande s'il connaît ma mère.->oui]]
+[[ Je le stalke un peu.->mamere]]
+
+
+:: finit {"position":"400,1450","size":"100,100"}
+Ça m'aide pas, les mots tournent dans ma tête sans trouver de sens.
+
+
+<img src="image-lettttre.jpg">
+
+
+:: finitt {"position":"775,500","size":"100,100"}
+Mais t'es fou de prendre cette option !!! Quesque tu comprends pas dans “même si ta mère le désapprouverai“ ?!
+
+
+<img src="image-lettttre.jpg">
+
+
+:: google\  {"position":"500,1575","size":"100,100"}
+Je trouve des images du groupe, avec des photos de ma mère !!!!!
+
+[[ Je vais regarder sur Spotify.->spotify]]
+[[ Je demande à ChatGPT quelles sont les personnes qui ont participés au groupe.->persobad ]]
+
+
+:: groupe {"position":"925,1950","size":"100,100"}
+Je trouve beaucoup de photos sur Twitter, avec ma mère, et une ou ils...s'embrassent ?
+
+[[ Je regarde les comementaires.->com]]
+[[ Je recherche son adresse pour aller le voir directement.->adresse]]
+
+
+
+:: guittare {"position":"825,1575","size":"100,100"}
+Elle est signée !! Par..Enzo Marteau ?
+
+[[ Je recherche son nom.->enzo]]
+[[ Je demande à ma mère.->finitt]]
+
+
+:: histoire {"position":"1350,2275","size":"100,100"}
+Il me dit qu'ils ont juste fait de la musique ensembles et qu'ils étaient en couple durant 3 ans. Ma mère me dit qu'il faudrait faire un test ADN mais que c'est probablement mon père biologique...
+
+(text-colour:red)[FIN]
+
+<img src="image-cri.jpg">
+
+
+:: lui {"position":"1075,2000","size":"100,100"}
+Je trouve beaucoup de photos, y compris des vieilles avec le groupe de musique ou ma mère.
+[[ Je recherche son adresse pour aller le voir.->adresse]]
+
+
+:: mamere {"position":"1050,1850","size":"100,100"}
+Je trouve une photo de lui avec..la même guitare ?
+
+[[ Je recherche le nom du groupe sur tous les réseaux sociaux.->groupe]]
+[[ Je recherche son nom sur tous les réseaux sociaux.->lui]]
+[[ Je recherche son adresse->adresse]]
+
+
+:: mams {"position":"1350,2025","size":"100,100"}
+[[ Je lui mens et lui dis que je veux lui présenter mon copain.->mensonge]]
+[[ Je lui raconte l'histoire.->vrai]]
+
+
+:: mensonge {"position":"1350,2150","size":"100,100"}
+On y va, je sonne à la porte mais ma mère a lu le nom sur la boîte aux lettres et commence à partir. Enzo ouvre la porte, la vois et la rattrape.
+
+[[ Je demande à Enzo de me raconter ce qu'il s'est passé entre eux.->histoire]]
+[[ Je .->histoire]]
+
+
+:: message {"position":"100,1100","size":"100,100"}
+
+
+
+:: moi {"position":"1225,2025","size":"100,100"}
+Je lui demande s'il connaît Stéphanie Durand, et me réponds non fortement. Bizzare...
+
+[[ Je pars et vais chercher ma mère pour y retourner avec elle.->mams]]
+
+
+
+:: oui {"position":"750,1825","size":"100,100"}
+"Stéphanie Durand ? Oui je vois bien qui c'est, pourquoi ?"
+
+[[ "C'est ma mère."->aie]]
+[[ "Vous étiez dans le même groupe de musique ?".-> groupe]]
+
+
+:: pas {"position":"700,1575","size":"100,100"}
+Rien d'intéressant...
+
+
+:: pasok {"position":"1050,2200","size":"100,100"}
+Elle n'est pas d'accord et furieuse.
+
+
+:: perso\  {"position":"475,1825","size":"100,100"}
+3 personnes, dont ma mère..
+
+[[ Je me sens trop mal et j'envoie un message à ma mère pour des explications.->finitt]]
+[[ Je continue mes recherches.->cherche]]
+
+
+:: persobad\  {"position":"575,1700","size":"100,100"}
+Il ne trouve pas, je pense que le groupe devait pas être très connu...
+
+[[ Je vais regarder sur Spotify.->spotify]]
+
+
+
+:: spotify {"position":"400,1700","size":"100,100"}
+Il y a bien la même chanson que celle à la bibliothèque !! Oh mon dieu..
+
+[[ J'envoie la chanson et demande à ChatGPT quelles sont les personnes qui ont participés au groupe.->perso ]]
+
+
+:: temps {"position":"850,2225","size":"100,100"}
+"De 2007 à 2008, mais de ce que je sais elle s'est mariée avec un autre homme depuis longtemps."
+
+OMG c'est quand je suis née ça, c'est mon père ?!?!?
+
+
+(text-colour:red)[FIN]
+
+<img src="image-cri.jpg">
+
+
+
+:: vrai {"position":"1475,2150","size":"100,100"}
+Elle accepte pas de venir et m'engueule...
+
+
+:: StoryStylesheet [stylesheet]
+@import url('https://fonts.googleapis.com/css2?family=Averia+Libre:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+
+html, body, tw-story{ font-family: "Averia Libre", system-ui; }
+
+body { color : black ;}
+
+body{ align-items: flex-end; }
+
+img{ image-fond.jpg =360 100%; }
